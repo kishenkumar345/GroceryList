@@ -1,9 +1,9 @@
-#ifndef GROCERY_LIST
-#define GROCERY_LIST
+#ifndef GROCERY_ITEM
+#define GROCERY_ITEM
 
 #include <bits/stdc++.h>
 
-class GroceryList
+class GroceryItem
 {
     int ServPP;
     int ServS;

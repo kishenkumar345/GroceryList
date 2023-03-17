@@ -1,4 +1,4 @@
-#include "./GLClass/GroceryList.h"
+#include "./GIClass/GroceryItem.h"
 #include "../../hiredis.h"
 
 int main(int argc, char **argv)
