@@ -15,17 +15,17 @@ std::string GroceryItem::getName()
     return this->name;
 }
 
-int GroceryItem::setServPP(int x)
+void GroceryItem::setServPP(int x)
 {
     this->servPP = x;
 }
 
-int GroceryItem::setServS(int y)
+void GroceryItem::setServS(int y)
 {
     this->servS = y;
 }
 
-std::string GroceryItem::setName(std::string z)
+void GroceryItem::setName(std::string z)
 {
     this->name = z;
 }

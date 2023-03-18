@@ -11,12 +11,12 @@ class GroceryItem
         int servS;
 
     public:
-        int getServPP(){}
-        int getServS(){}
-        std::string getName(){}
-        int setServPP(int){}
-        int setServS(int){}
-        std::string setName(std::string){}
+        int getServPP();
+        int getServS();
+        std::string getName();
+        void setServPP(int);
+        void setServS(int);
+        void setName(std::string);
 };
 
 #endif
