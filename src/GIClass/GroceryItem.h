@@ -5,8 +5,18 @@
 
 class GroceryItem
 {
-    int ServPP;
-    int ServS;
+    private:
+        std::string name;
+        int servPP;
+        int servS;
+
+    public:
+        int getServPP(){}
+        int getServS(){}
+        std::string getName(){}
+        int setServPP(int){}
+        int setServS(int){}
+        std::string setName(std::string){}
 };
 
 #endif
