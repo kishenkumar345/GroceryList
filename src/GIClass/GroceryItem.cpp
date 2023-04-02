@@ -1,31 +1,25 @@
 #include "./GroceryItem.h"
 
-int GroceryItem::getServPP()
-{
+int GroceryItem::getServPP() {
     return this->servPP;
 }
 
-int GroceryItem::getServS()
-{
+int GroceryItem::getServS() {
     return this->servS;
 }
 
-std::string GroceryItem::getName()
-{
+std::string GroceryItem::getName() {
     return this->name;
 }
 
-void GroceryItem::setServPP(int x)
-{
+void GroceryItem::setServPP(int x) {
     this->servPP = x;
 }
 
-void GroceryItem::setServS(int y)
-{
+void GroceryItem::setServS(int y) {
     this->servS = y;
 }
 
-void GroceryItem::setName(std::string z)
-{
+void GroceryItem::setName(std::string z) {
     this->name = z;
 }

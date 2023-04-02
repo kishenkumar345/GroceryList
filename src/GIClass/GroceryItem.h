@@ -3,8 +3,7 @@
 
 #include <bits/stdc++.h>
 
-class GroceryItem
-{
+class GroceryItem {
     private:
         std::string name;
         int servPP;
